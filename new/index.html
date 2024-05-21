@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- CDN link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="{%  'icon/fontawesome-free-6.5.1-web/css/all.css' %}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="/">
+          <img src="images/logo.svg" alt="" />
+        </a>
+      </div>
+      <div class="nav-right">
+        <ul id="navbar">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/payment.html" class="btn2">Donate</a></li>
+        </ul>
+        <li onclick="openSideBar()"><i class="fa-solid fa-bars"></i></li>
+      </div>
+      <ul class="sidebar">
+        <li onclick="closeSideBar()">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </li>
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/payment.html">Donate</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div class="hero__desc">
+        <img src="images/logo2.svg" alt="logo" />
+        <h2>VEHBWAH MISSION OF MERCY FOUNDATION</h2>
+        <i>....Building Lives.....Shapping Destinies</i>
+        <p>
+          Inspiring hope, transforming lives. Join us in building a world where
+          <br />
+          every individual has the opportunity to thrive.
+        </p>
+        <a href="#" class="btn">Join Us</a>
+        <a href="#children" class="arrow"><i>👇</i></a>
+      </div>
+    </section>
+    <section class="hero2">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h2>Utilize our Solution to expand Your business.</h2>
+          <p>
+            Together, we build a tomorrow filled with hope, opportunity, and
+            equality. Join our community dedicated to making a positive impact
+            on the world. At the heart of our mission is the belief that every
+            life counts.
+          </p>
+          <a href="" class="btn2">Let's Talk</a>
+        </div>
+        <div class="hero-right">
+          <a href="/payment.html" class="pop"
+            >Donate <i class="fa-solid fa-circle-dollar-to-slot"></i
+          ></a>
+        </div>
+      </div>
+      <div class="social">
+        <a href="">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+    <section class="hero3" id="children">
+      <div class="top">
+        <div class="topLeft">
+          <h2>
+            We provide The Best <br />
+            Solution For the <br />
+            Future
+            <img class="imgCard" src="images/img (6).jpg" alt="image" />
+          </h2>
+        </div>
+        <div class="topRight">
+          <p>
+            Begin by visiting the YouTube video you wish to download. This step
+            ensures a streamlined and hassle-free downloading experience.
+          </p>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="{%  'images/img (1).jpg' %}" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="{%  'images/img (2).jpg' %}" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/img (3).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/img (4).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/img (5).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/img (6).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/img (7).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="text-right">
+          <p>
+            <span>&#10077;</span>We believe that every child deserves access to
+            quality education. Through our educational programs, we provide
+            scholarships, tutoring, and school supplies to ensure that children
+            have the tools they need to succeed in school and beyond. We work to
+            ensure that children have access to essential healthcare services.
+            From providing vaccinations to organizing medical camps, we are
+            committed to keeping children healthy and happy.
+            <span>&#10078;</span>
+          </p>
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <section class="hero4">
+      <div class="hero4-left">
+        <img src="{%  'images/men.png' %}" alt="mendem" />
+      </div>
+      <div class="hero4-right">
+        <h1>Skill Development</h1>
+        <p>
+          We believe in equipping children with the skills they need to succeed
+          in life. Through our skill development programs, we offer training in
+          areas such as computer literacy, vocational skills, and
+          entrepreneurship, empowering children to build a better future for
+          themselves.
+        </p>
+      </div>
+    </section>
+    <section class="gallery">
+      <h1>Our Gallery</h1>
+      <div class="gallery-inner baguetteBoxOne">
+        <a href="/images/ngo/ngo10.jpg" class="gallery-img" title="image1">
+          <img src="{%  'images/ngo/ngo10.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/ngo11.jpg" class="gallery-img" title="image2">
+          <img src="{%  'images/ngo/ngo11.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/ngo12.jpg" class="gallery-img" title="image3">
+          <img src="{%  'images/ngo/ngo12.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/ngo13.jpg" class="gallery-img" title="image4">
+          <img src="{%  'images/ngo/ngo13.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/ngo2.jpg" class="gallery-img" title="image5">
+          <img src="{%  'images/ngo/ngo2.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/ngo8.jpg" class="gallery-img" title="image6">
+          <img src="{%  'images/ngo/ngo8.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/ngo9.jpg" class="gallery-img" title="image7">
+          <img src="{%  'images/ngo/ngo9.jpg' %}" alt="">
+        </a>
+        <a href="/images/ngo/photo1 (3).jpg" class="gallery-img" title="image8">
+          <img src="{%  'images/ngo/photo1 (3).jpg' %}" alt="">
+        </a>
+      </div>
+    </section>
+
+     <!-- --- Testimonials Section --- -->
+        <div class="testi_section">
+            <div class="testi_container">
+
+                <div class="testi_card">
+                    <img src="{%  'images/quotation.png' %}" class="quote">
+                    <p>"What do you need to start a business? Three simple things know your product as better to me, and
+                        have a burning desire to succeed."</p>
+                    <div class="test_person">
+                        <img src="{%  'images/profile/dreamer.jpg' %}" width="50px">
+                        <div class="name_desig">
+                            <h4>Penticost Smith</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi_card">
+                    <img src="{%  'images/quotation.png' %}" class="quote">
+                    <p>"What do you need to start a business? Three simple things know your product as better to me, and
+                        have a burning desire to succeed."</p>
+                    <div class="test_person">
+                        <img src="{%  'images/profile/bigbruh.jpg' %}" width="50px">
+                        <div class="name_desig">
+                            <h4>Favour Philip</h4>
+                            <p>Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi_card">
+                    <img src="{%  'images/quotation.png' %}" class="quote">
+                    <p>"What do you need to start a business? Three simple things know your product as better to me, and
+                        have a burning desire to succeed."</p>
+                    <div class="test_person">
+                        <img src="{%  'images/profile/Asaiah Henson.jpg' %}" width="50px">
+                        <div class="name_desig">
+                            <h4>Dreamer </h4>
+                            <p>Software Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section class="footer">
+      <div class="nav-left">
+        <a href="#">
+          <img src="{%  'images/logo.svg' %}" alt="" />
+        </a>
+      </div>
+      <div class="footer-left">
+        <ul>
+          <li><a href="#">Charitable Organization</a></li>
+          <li><a href="#">VEHBWAH MISSION OF MERCY FOUNDATION</a></li>
+          <li><a href="#">Leader Nghainuh Henson</a></li>
+          <li><a href="#">CEO Henson Audu Titus</a></li>
+          <li><a href="#">USREOU code 44754634</a></li>
+          <li><a href="#">Mailing address: Nigeria, Jalingo, Nukkai behind bridge nursery, house 16D</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <a href="#">+234 7033413075</a>
+        <span>vehbwahmission.vercel</span>
+        <a href="#">&copy; dreamerwebdev</a>
+      </div>
+    </section>
+    <script src="{%  'js/scripts.js' %}"></script>
+    <!-- Swiper JS -->
+    <script>
+    baguetteBox.run('.baguetteBoxOne');
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
